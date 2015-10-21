@@ -1,0 +1,13 @@
+<h1>Add New</h1>
+
+<%= form_for @project do |n| %>
+<p>
+  <%= n.label :title %><br>
+  <%= n.text_field :title %>
+</p>
+
+<p>
+  <%= n.submit %>
+</p>
+
+<% end %>
